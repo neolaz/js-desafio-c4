@@ -13,6 +13,7 @@ let numeradorNotaDeCredito = 0;
 let numeradorNotaDeDebito = 0;
 let iterador = true;
 
+// Bucle principal
 while (iterador){
     gestionarMenu();
     if (opcionMenu == 1) crearDocumento();
